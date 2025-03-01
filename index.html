@@ -3,112 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio - Tuqa Al-Islam Jaradat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
-<body><!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>portfolio</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
-    </head>
-    <body>
-        <nav>
-            <input type="checkbox" class="checkbox" id="cheak" >
-            <h1 class="nav_head">Tuqa.</h1>
-            <ul>
-                <li><a href="#Home">Home</a></li>
-    <!--             <li><a href="#About">About</a></li>
-     -->            <li><a href="#Skills">Skills</a></li>
-                  <li><a href="#work">work</a></li>
-               
-                <li><a href="#Training_courses">Training_courses</a></li>
-                <li><a href="#contact"><button class="contact_btn">contact</button></a></li>
-            </ul>
-            <label for="check" class="checkbtn">
-            <li class="fas fa-bars"></li>
+<body>
+    <nav>
+        <input type="checkbox" class="checkbox" id="check">
+        <h1 class="nav_head">Tuqa.</h1>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#Training_courses">Training Courses</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
         </label>
-        </nav>
-        <section id="Home" class="home">
-            <img src="./img/undraw_programmer_raqr.png" alt="prof" width="300px" height="250px">
-            <div class="description">
-                <h1> hello I’m<br><span>Tuqa-Alislam Jaradat</span></h1>
-                 <h2>About me...</h2>
-                 <p>Passionate about learning new skills and known for being friendly, helpful, and polite. - Work efficiently both independently and in teams, with good problem solving and effective listening skills. - Experienced in planning, scheduling, and working under pressure, with a solid background in volunteering and technical skills.</p>
-            </div>
-        </section>
+    </nav>
+    <section id="Home" class="home">
+        <img src="./img/undraw_programmer_raqr.png" alt="Profile picture of Tuqa Al-Islam Jaradat" width="300" height="250">
+        <div class="description">
+            <h1>Hello, I’m<br><span>Tuqa Al-Islam Jaradat</span></h1>
+            <h2>About me...</h2>
+            <p>Passionate about learning new skills and known for being friendly, helpful, and polite. I work efficiently both independently and in teams, with good problem-solving and effective listening skills. Experienced in planning, scheduling, and working under pressure, with a solid background in volunteering and technical skills.</p>
+        </div>
+    </section>
     <section id="Skills" class="skills">
         <div class="skills_section">
-            <h1>skills</h1>
-            <p>Office Applications, Problem Solving, Data Entry, Effective Communication, Time Management, Teamwork, Quick Learning, Patient</p><br>
-            <hr><br>
+            <h1>Skills</h1>
+            <div class="skill_list">
+                <div class="skill_item">
+                    <i class="fas fa-file-alt"></i>
+                    <p>Office Applications</p>
+                </div>
+                <div class="skill_item">
+                    <i class="fas fa-lightbulb"></i>
+                    <p>Problem Solving</p>
+                </div>
+                <div class="skill_item">
+                    <i class="fas fa-keyboard"></i>
+                    <p>Data Entry</p>
+                </div>
+                <div class="skill_item">
+                    <i class="fas fa-comments"></i>
+                    <p>Effective Communication</p>
+                </div>
+                <div class="skill_item">
+                    <i class="fas fa-clock"></i>
+                    <p>Time Management</p>
+                </div>
+                <div class="skill_item">
+                    <i class="fas fa-users"></i>
+                    <p>Teamwork</p>
+                </div>
+                <div class="skill_item">
+                    <i class="fas fa-brain"></i>
+                    <p>Quick Learning</p>
+                </div>
+                <div class="skill_item">
+                    <i class="fas fa-heart"></i>
+                    <p>Patience</p>
+                </div>
+            </div>
+            <hr>
             <h1>Education</h1>
-            <p>Bachelor’s: Management and Information Systems Al- Balqa'Applied University, Amman Sep 2019–Jul 2023</p>
-    
-        </div>
-        <div class="about_photo">
-            <img src="./img/undraw_well-done_kqud.png" alt="skills" width="320px" height="269px">
+            <p>Bachelor’s: Management and Information Systems, Al-Balqa' Applied University, Amman (Sep 2019 – Jul 2023)</p>
+            <div class="about_photo">
+                <img src="./img/image.png" alt="Skills illustration" width="200" height="169">
+            </div>
         </div>
     </section>
-    
     <section id="work">
-    <h1 class="work_section"><span>work</span></h1>
-    <div class="project">
-     <div class="work_card">
-        <img src="./img/vaccine.jpeg" alt="vac" width="460px" height="250px">
-       <div class="content">
-         <h1>DATA ENTRY </h1>
-           <p>MINISTRY OF HEALTH-National Vaccination Program-2021<br>Working as a data entry with orange–Jordan Vaccine Village in Amman–the Jordanian National Vaccine Project.</p> 
-       </div>
-     </div>
-     <div class="work_card">
-        <img src="./img/VOLUNTEER WORKS .jpeg" alt="volunteering" width="400" height="250">
-       <div class="content">
-         <h1>Volunteer</h1>
-           <p>"Volunteer in Clothing Bank","Volunteer to help Orphans","Ramadan Events",organizing….</p> 
-       </div>
-     </div>
-     <div class="work_card">
-        <img src="./img/ebu.png" alt="vac" width="420" height="250">
-       <div class="content">
-         <h1>EBU PROJECTS COORDINATION </h1>
-           <p>University field training in “Jordan Telecom Group-Orange”(EBU) projects coordination and follow-up</p> 
-       </div>
-     </div>
-     
-    </div>
-    
-    
-    
-    
+        <h1 class="work_section"><span>Work</span></h1>
+        <div class="project">
+            <div class="work_card">
+                <img src="./img/vaccine.jpeg" alt="Vaccine program" width="460" height="250">
+                <div class="content">
+                    <h1>Data Entry</h1>
+                    <p>MINISTRY OF HEALTH - National Vaccination Program (2021). Worked as a data entry specialist with Orange – Jordan Vaccine Village in Amman for the Jordanian National Vaccine Project.</p>
+                </div>
+            </div>
+            <div class="work_card">
+                <img src="./img/VOLUNTEER_WORKS.jpeg" alt="Volunteering" width="400" height="250">
+                <div class="content">
+                    <h1>Volunteer</h1>
+                    <p>Participated in various volunteer activities including the Clothing Bank, helping orphans, and organizing Ramadan events.</p>
+                </div>
+            </div>
+            <div class="work_card">
+                <img src="./img/ebu.png" alt="EBU Projects Coordination" width="420" height="250">
+                <div class="content">
+                    <h1>EBU Projects Coordination</h1>
+                    <p>Completed university field training in “Jordan Telecom Group-Orange” (EBU) projects coordination and follow-up.</p>
+                </div>
+            </div>
+        </div>
     </section>
     <section id="Training_courses">
-    <h1 class="Training_section"><span>Training_courses</span></h1>
-    <div class="card">
-    <div class="Training_card">
-        <i class="fa fa-star-half-o"></i>
-        <p>2024<br>TTM1-Trainig of trainers-DTDA</p>
-    </div>
-    <div class="Training_card">
-        <i class="fas fa-computer"></i>
-        <p>2024<br>Skills Train Education Programmed(STEP)-BDC</p>
-    </div>
-    <div class="Training_card">
-        <i class="fa fa-star-o"></i>
-        <p>2024<br>Project Management Professional(PMI-PMP)</p>
-    </div>
-    <div class="Training_card">
-        <i class="fa fa-laptop"></i>
-        <p>2023<br>Team Work and Leadership</p>
-    </div>
-    </div>  
+        <h1 class="Training_section"><span>Training Courses</span></h1>
+        <div class="card">
+            <div class="Training_card">
+                <i class="fas fa-star-half-alt"></i>
+                <p>2024<br>TTM1 - Training of Trainers - DTDA</p>
+            </div>
+            <div class="Training_card">
+                <i class="fas fa-laptop-code"></i>
+                <p>2024<br>Skills Train Education Program (STEP) - BDC</p>
+            </div>
+            <div class="Training_card">
+                <i class="fa fa-project-diagram"></i>
+                <p>2024<br>Project Management Professional (PMI-PMP)</p>
+            </div>
+            <div class="Training_card">
+                <i class="fa fa-users"></i>
+                <p>2023<br>Team Work and Leadership</p>
+            </div>
+        </div>
     </section>
-        <footer>
-            <section id="contact">
+    <footer>
+        <section id="contact">
             <div class="font">
                 <a href="https://www.linkedin.com/in/tuqa-jaradat-836405290/" target="_blank">
                     <i class="fa-brands fa-linkedin"></i>
@@ -116,14 +131,11 @@
                 <a href="https://github.com/tuqajr" target="_blank">
                     <i class="fa-brands fa-github"></i>
                 </a>
-                <!-- <a href="#" target="_blank">
-                    <i class="fa-brands fa-discord"></i>
-                </a> -->
                 <a href="mailto:tuqaalislam2001@gmail.com">
-                    <i class='far'>&#xf0e0;</i>
+                    <i class="far fa-envelope"></i>
                 </a>
             </div>
         </section>
-        </footer>
-    </body>
+    </footer>
+</body>
 </html>
